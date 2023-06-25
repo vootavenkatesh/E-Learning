@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-learning</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+        
+        
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    
+    </head>
+
+    <body>
+        
+        <!-- navigation -->
+        <nav>
+            <img src="images/logo.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="blue" href="course.html">Enroll Now</a></li>
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+            </div>
+        </nav>
+
+        <!--Home-->
+
+        <section id="about-html">
+            <h2>Enroll Now and Upgrad your Skills </h2>
+            <p>Education is a journey, not a destination</p>
+        </section>
+
+
+        <!-- Full Stack Web Development courses html -->
+
+        <section id="fullstack-enroll">
+            <div class="overview">
+                <img class="enroll-img" src="images/enroll2.png" alt="">
+                <div class="course-head">
+                    <div class="c-name">
+                        <h2>Python Course</h2>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>
+                            #########################
+                        </p>
+                    </div>
+                    <span>
+                        5000/-
+                    </span>
+                </div>
+                <h3>Instructor</h3>
+                <div class="tutor">
+                    <img src="images/instructor.png" alt="">
+                    <div class="tutor-det">
+                        <h5>venkatesh</h5>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+                <hr>
+                <h3>Courses overview</h3>
+                <p>Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis. Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn’t specialized for any specific problems. This versatility, along with its beginner-friendliness, has made it one of the most-used programming languages today.
+
+                    <br>
+                    <br>
+
+                    Stack Overflow's 2022 Developer Survey revealed that Python is the fourth most popular programming language, with respondents saying that they use Python almost 50 percent of the time in their development work. Survey results also showed that Python is tied with Rust as the most-wanted technology, with 18% percent of developers who aren't using it already saying that they are interested in learning Python..</p>
+
+                    <hr>
+                    <h3>What you'll learn</h3>
+                    <div class="learn">
+                        <p><i class="far fa-check-circle"></i>Python from scratch-beginner to advanced</p>
+                        <p><i class="far fa-check-circle"></i>Everything you need to become a Python expert and apply for Python related jobs</p>
+                        <p><i class="far fa-check-circle"></i>All About Python Programming etc..</p>
+                        <p><i class="far fa-check-circle"></i>100+ Assignments</p>
+                        <p><i class="far fa-check-circle"></i>20+ Projects</p>
+                    </div>
+            </div>
+                    <div class="enroll">
+                        <h3>This course includes:</h3>
+                        <p><i class="far fa-video"></i>60 hours video</p>
+                        <p><i class="far fa-newspaper"></i>75+ articles</p>
+                        <p><i class="far fa-cloud-download"></i>Downloadable resources</p>
+                        <p><i class="far fa-infinity"></i>full lifetime access</p>
+                        <p><i class="far fa-mobile-alt"></i>Access on mobile and TV</p>
+                        <p><i class="far fa-paperclip"></i>Assignments</p>
+                        <p><i class="far fa-trophy-alt"></i>certificate of completion</p>
+                        <div class="enroll-btn">
+                            <a class="blue" href="https://docs.google.com/forms/d/e/1FAIpQLSejGMx9Z4fLcgRuMotTx8-7bGjFFXyGmF5kqsF6dyYCwbn5Ow/viewform?pli=1&pli=1&pli=1">Enroll Course</a>
+                        </div>
+                    </div>
+
+        </section>
+
+
+
+        <!--footer-->
+        
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Careers</li>
+                <li>Terms & conditions</li>
+                
+            </div>
+            <div class="footer-col">
+                <h3>Guides</h3>
+                <li>Research</li>
+                <li>Experts</li>
+                
+                
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us, we only send promo offers,</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email Address">
+                    <a href="#" class="Yellow">SUBSCRIBE</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <i class="fas fa-copyright"></i>
+                <p>Copyright @2023 All rights reserved by voota</p>
+            </div>
+        </footer>
+        <script>
+            $ ('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('active')
+            });
+            $ ('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('active')
+            });
+        </script>
+    </body>
+</html>

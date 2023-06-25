@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-learning</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+        
+        
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    
+    </head>
+
+    <body>
+        
+        <!-- navigation -->
+        <nav>
+            <img src="images/logo.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="blog.html">Blog</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="blue" href="course.html">Enroll Now</a></li>
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+            </div>
+        </nav>
+
+        <!--Home-->
+
+        <section id="about-html">
+            <h2>Blog</h2>
+            <p>Education is a journey, not a destination</p>
+        </section>
+
+        <section id="blog-container">
+            <div class="blogs">
+                <div class="post">
+                    <img src="images/learnwebimg.png" alt="">
+                    <h3>Learn web development in the easy way</h3>
+                    <p> Web Development is the practice of developing websites and web apps that live on the internet. Whether you’re interested in front-end, back-end, or going full-stack, our web development courses will help you get there....</p>
+                    <a href="https://www.w3schools.com/whatis/">Read More</a>
+                </div>
+                <div class="post">
+                    <img src="images/webdesign.png" alt="">
+                    <h3>Web design for beginners</h3>
+                    <p> The Ultimate web design course includes over 100 videos. It starts with everything you need to know to get started with Webflow and eases into more advanced design concepts. You'll learn the basics of HTML, how CSS classes and subclasses function, how to construct a page design with elements like containers, divs, flexboxes, and grids. And of course, we'll take you through how to use one of our most powerful features....</p>
+                    <a href="https://webflow.com/blog/web-design-for-beginners">Read More</a>
+                </div>
+                <div class="post">
+                    <img src="images/frontend.png" alt="">
+                    <h3>Frontend web development using React.JS</h3>
+                    <p> Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.....</p>
+                    <a href="https://www.w3schools.com/react/default.asp">Read More</a>
+                </div>
+            </div>
+            <div class="cate">
+                <h2>Catergories</h2>
+                <hr>
+                <div class="btn">
+                <a class="green" href="https://en.wikipedia.org/wiki/Web_development">Web development</a>
+                <hr>
+                <a class="green" href="https://en.wikipedia.org/wiki/Web_design">Web design</a>
+                <hr>
+                <a class="green" href="https://en.wikipedia.org/wiki/Front-end_web_development">frontend web</a>
+                <hr>
+                <a class="green" href="https://www.geeksforgeeks.org/android-app-development-fundamentals-for-beginners/">App development</a>
+                <hr>
+                <a class="green" href="https://www.w3schools.com/python/default.asp">Python programming</a>
+                <hr>
+                <a class="green" href="https://www.w3schools.com/js/DEFAULT.asp">javascript</a>
+                </div>
+
+            </div>
+        </section>
+    <!--footer-->
+        
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Careers</li>
+                <li>Terms & conditions</li>
+                
+            </div>
+            <div class="footer-col">
+                <h3>Guides</h3>
+                <li>Research</li>
+                <li>Experts</li>
+                
+                
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us, we only send promo offers,</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email Address">
+                    <a href="#" class="Yellow">SUBSCRIBE</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <i class="fas fa-copyright"></i>
+                <p>Copyright @2023 All rights reserved by voota</p>
+            </div>
+        </footer>
+        <script>
+            $ ('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('active')
+            });
+            $ ('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('active')
+            });
+        </script>
+    </body>
+</html>
